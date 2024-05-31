@@ -1,3 +1,5 @@
+//By: Riley McKenzie
+//10/22/21
 #getting file from user
 x = input("Enter your file name: ")
 
