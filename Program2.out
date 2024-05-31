@@ -1,0 +1,19 @@
+#getting file from user
+x = input("Enter your file name: ")
+
+#This is number of all integers
+o = open(x , 'r')
+list = o.readlines()
+i = len(list)
+print("number of integers: " , i)
+
+#This is the sum of all numbers 
+sum = 0
+with open(x) as fh:
+    for list in fh:
+        sum += int(list)
+print("the sum is: " , sum)
+
+#This is the average of all numbers
+a = sum / i
+print("The average of those numbers is: " , a)
